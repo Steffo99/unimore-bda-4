@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="apoc-full">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/data/neo4j/plugins/apoc-full.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

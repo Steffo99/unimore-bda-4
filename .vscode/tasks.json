@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Neo4J",
+            "icon": {
+                "id": "database"
+            },
+            "type": "shell",
+            "command": "${workspaceFolder}/scripts/run-db.sh",
+            "problemMatcher": [],
+            "isBackground": true,
+        }
+    ]
+}
