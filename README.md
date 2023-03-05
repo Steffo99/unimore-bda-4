@@ -105,7 +105,7 @@ Questo progetto si aspetta che la `NEO4J_HOME` del DBMS scelto si trovi nella ca
 
 Utilizzare Neo4J Desktop permette fra le varie cose di utilizzare *Neo4J Bloom*, applicazione che permette di esplorare il database grafo interattivamente, ed è quindi l'opzione consigliata.
 
-Per utilizzare un database Neo4J Desktop, è possibile seguire seguiti i seguenti passi:
+Per utilizzare un database Neo4J Desktop, è possibile seguire i seguenti passi:
 
 1.  Si inizializzi il DBMS su Neo4J Desktop.
 
@@ -1020,13 +1020,14 @@ MATCH (category:Category)<-[supercontains:CONTAINS]-(supercategory:Category)
 RETURN user, owns, crate, is_tagged_with, keyword, has_version, version, contains, category, supercontains, supercategory;
 ```
 
-![Grafo con 57 nodi e 870 relazioni. Un nodo rosso centrale "Steffo99" è connesso a tanti altri nodi.](media/query-selfdeps-solution.svg)
+![Grafo con 57 nodi e 870 relazioni. Un nodo rosso centrale "Steffo99" è connesso a tanti altri nodi.](media/query-steffocrates-solution.svg)
 
 
 <!-- Collegamenti -->
 
 [Crates.io]: https://crates.io
 [Rust]: https://www.rust-lang.org
+[APOC]: https://github.com/neo4j/apoc
 [crate]: https://doc.rust-lang.org/book/ch07-01-packages-and-crates.html
 [versione semantica]: https://semver.org
 [identificatore SPDX]: https://spdx.org/licenses/
